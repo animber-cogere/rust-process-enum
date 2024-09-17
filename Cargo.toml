@@ -1,0 +1,11 @@
+[package]
+name = "rust_process_enum"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["psapi", "processthreadsapi", "winnt", "minwindef", "memoryapi", "synchapi", "minwinbase", "libloaderapi", "errhandlingapi"] }
+goblin = "0.8.2"
+pe-parser = "0.6.0"
